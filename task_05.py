@@ -22,7 +22,7 @@ def mass_multiplier(*args):
         >>> mass_multiplier(3.45, 4.98, 1.76)
         >>> 30.23856
     """
-    multiplied = reduce(operator.mul,(args),1)
+    multiplied = reduce(operator.mul, args, 1)
     return multiplied
 
 
@@ -46,5 +46,5 @@ def student_report(name, age, school_id, **kwargs):
     >>> {'name': 'Jane', 'age': 3, 'school_id': 'ps-1', 'math'=B)
 
     """
-    returndict = dict(name = name, age = age, school_id = school_id, **kwargs)
+    returndict = dict(name=name, age=age, school_id=school_id, **kwargs)
     return returndict
