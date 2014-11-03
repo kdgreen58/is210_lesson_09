@@ -14,6 +14,7 @@ def mass_multiplier(*args):
         retval *= arg
     return retval
 
+
 def student_report(name, age, school_id, **kwargs):
     """Docstring
 
