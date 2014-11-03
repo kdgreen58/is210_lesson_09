@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Task 02 Code"""
+"""Task 05 Code"""
 
 
 def mass_multiplier(*args):
