@@ -4,4 +4,4 @@
 
 import task_01.peanut
 
-TIME = task01.peanut.BUTTER
+TIME = task_01.peanut.BUTTER
